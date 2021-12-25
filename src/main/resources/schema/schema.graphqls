@@ -6,3 +6,14 @@ type Show {
     title: String
     releaseYear: Int
 }
+
+type Mutation {
+    addShow(input: ShowInput):Show
+}
+
+input ShowInput {
+    title: String
+    releaseYear: Int
+}
+
+
